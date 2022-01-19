@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 public class DragonquestItemGroup extends ItemGroup {
     public DragonquestItemGroup()
     {
-        super("dragon quest");
+        super("dragonquest");
     }
 
     @Override
