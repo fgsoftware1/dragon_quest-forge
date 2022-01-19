@@ -1,0 +1,6 @@
+{
+  "_comment": "--------------------|mod group|--------------------",
+  "itemGroup.dragonquest": "Tutorial Item Group",
+  "_comment": "--------------------|mod items|--------------------",
+  "item.dragonquest.test_item": "Test item"
+}
