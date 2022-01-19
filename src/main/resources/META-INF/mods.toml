@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+[[mods]]
+    modId="dragonquest"
+    version="${file.jarVersion}"
+    displayName="Dragon quest"
+    # logoFile=""
+    updateJSONURL="http://myurl.me/"
+    displayURL="http://example.com/"
+    issueTrackerURL="http://my.issue.tracker/"
+    credits="Gabriel Aguiar and Github contributors"
+    authors="Gabriel Aguiar"
+    description="Dragon quest mod"
+[[dependencies.dragonquest]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dragonquest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
