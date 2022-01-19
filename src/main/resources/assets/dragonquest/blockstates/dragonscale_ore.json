@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "": { "model": "dragonquest:block/dragonscale_ore" }
+  }
+}

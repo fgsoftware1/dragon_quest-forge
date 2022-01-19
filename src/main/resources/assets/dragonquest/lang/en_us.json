@@ -1,0 +1,8 @@
+{
+  "_comment": "--------------------|mod group|--------------------",
+  "itemGroup.dragonquest": "Dragon Item Group",
+  "_comment": "--------------------|mod items|--------------------",
+  "item.dragonquest.test_item": "Test item",
+  "_comment": "--------------------|mod blocks|--------------------",
+  "block.dragonquest.dragonscale_ore": "dragonscale ore"
+}
