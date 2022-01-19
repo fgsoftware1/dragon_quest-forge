@@ -9,7 +9,10 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 import static com.fgsoftwarestudio.dragonquest.Reference.*;
+<<<<<<< HEAD
 import static com.fgsoftwarestudio.dragonquest.util.ResourceLocation.location;
+=======
+>>>>>>> 7fda49ced04bb9c94482fc6c35450ea6586e3d4a
 
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ItemRegistry {
@@ -22,4 +25,12 @@ public class ItemRegistry {
 
         LOGGER.info("Items registered.");
     }
+<<<<<<< HEAD
+=======
+
+    //@Deprecated
+    private static ResourceLocation location(String name){
+        return new ResourceLocation(MOD_ID, name);
+    }
+>>>>>>> 7fda49ced04bb9c94482fc6c35450ea6586e3d4a
 }
