@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = '1.0'
+version = '1.0.0'
 group = 'com.fgsoftwarestudio.dragonquest'
 archivesBaseName = 'dragonquest'
 
@@ -63,6 +63,7 @@ minecraft {
 }
 
 dependencies {
+    implementation 'org.jetbrains:annotations:22.0.0'
     minecraft 'net.minecraftforge:forge:1.14.4-28.2.26'
 }
 
@@ -78,4 +79,8 @@ jar {
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
+}
+
+repositories {
+    mavenCentral()
 }
