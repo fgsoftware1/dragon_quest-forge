@@ -2,5 +2,11 @@
   "_comment": "--------------------|mod group|--------------------",
   "itemGroup.dragonquest": "Dragon Item Group",
   "_comment": "--------------------|mod items|--------------------",
+<<<<<<< HEAD
+  "item.dragonquest.test_item": "Test item",
+  "_comment": "--------------------|mod blocks|--------------------",
+  "block.dragonquest.dragonscale_ore": "dragonscale ore"
+=======
   "item.dragonquest.test_item": "Test item"
+>>>>>>> 7fda49ced04bb9c94482fc6c35450ea6586e3d4a
 }
